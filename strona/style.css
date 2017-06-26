@@ -1,0 +1,116 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.6re;
+}
+
+
+/* TOP NAVIGATION */
+
+header nav {
+    background-color: #8BC34A;
+    position: absolute;
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+@keyframes showNav {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.subnav-is-opened .main-nav__secondary-nav {
+    display: block;
+    animation: showNav 250ms ease-in-out both;
+}
+
+header nav.close ul {
+    display: none;
+    opacity: 0;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    display: block;
+    animation: showNav 350ms ease-in-out both;
+}
+
+nav ul a {
+    color: black;
+    text-decoration: none;
+    list-style: none;
+    display: block;
+    border-top: 1px #AED581 solid;
+    padding: 10px 0;
+}
+
+nav ul a:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+header nav img {
+    height: 40px;
+    width: auto;
+    margin: 4px;
+}
+
+header img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+header nav #menuBtn {
+    float: right;
+}
+
+header nav .hamburger {
+    display: none;
+}
+
+header nav.close .hamburger {
+    color: black;
+    margin: 13px;
+    display: block;
+}
+
+header nav.close .clear {
+    display: none;
+}
+
+header nav .clear {
+    float: right;
+    color: black;
+    margin: 13px;
+    display: block;
+}
+
+
+/*
+ * WIDER SCREEN
+ */
+
+@media only screen and (min-width: 900px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
+

@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+}
+
+header nav a {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ccc;
+    color: #fff;
+}
+
+header nav a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+figure {
+    background: url('img/header-background-0.jpg') no-repeat fixed bottom;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    text-shadow: 0px 0px 5px #aaa;
+}
+figure h1, figure h2 {
+    color: #fff;
+}
+
+footer {
+    background-color: #ccc;
+    padding: 50px 5px 70px 5px;
+    margin-top: 30px;
+    color: #fff; 
+}
+
+/*
+ * MAIN
+ */
+
+.container {
+    margin: 30px 5px;
+    border: 1px #ccc solid;
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 900px;
+}
+h1, h2, h3 {
+    color: #ccc;
+    padding-bottom: 15px;
+}
+p {
+    padding: 10px 0px;
+}
+
+
+/*
+ * HEADER
+ */
+
+header {
+    background-color: #ccc;
+    border-bottom: 5px #ddd solid;
+}
+
+header .header-container {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+header img {
+    height: 40px;
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+
+/*
+ * SMALL SCREEN
+ */
+
+@media only screen and (max-width: 899px) {
+    /* header button */
+    header button {
+        background: none;
+        border: none;
+        color: #FFF;
+        float: right;
+        margin: 10px 10px 0px 10px;
+        padding: 4px 0px 0px 0px;
+    }
+    header button .material-icons {
+        font-size: 26;
+    }
+    header button .clear {
+        display: none;
+    }
+    header.open button .hamburger {
+        display: none;
+    }
+    header.open button .clear {
+        display: inline;
+    }
+    /* header menu list */
+    header nav {
+        position: relative;
+    }
+    header nav ul {
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: -1000px;
+        left: 0px;
+        background-color: #ccc;
+        opacity: 0.0;
+        transition: opacity 0.3s 0.0s linear, top 0.3s 0.3s linear;
+    }
+    header.open nav ul {
+        opacity: 1.0;
+        top: 5px;
+        transition: top 0.0s 0.0s linear, opacity 0.3s 0.0s linear;
+    }
+    header nav a {
+        display: block;
+        padding: 15px;
+        border-bottom: 1px #fff solid;
+    }
+}
+
+
+/*
+ * WIDER SCREEN
+ */
+
+@media only screen and (min-width: 900px) {
+    .container {
+        margin: 35px auto;
+    }
+    header button {
+        display: none;
+    }
+    header nav {
+        display: inline-block;
+        float: right;
+    }
+    header nav ul {
+        float: right;
+        display: inline-block;
+        top: 0px;
+        right: 0px;
+        width: auto;
+        opacity: 1.0;
+    }
+    header nav li {
+        display: inline-block;
+    }
+    header nav a {
+        display: block;
+        margin: 5px;
+        padding: 10px;
+    }
+}
