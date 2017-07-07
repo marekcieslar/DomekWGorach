@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="logo-DwG-web.svg">
+   sodipodi:docname="logo-DwG-web-b.svg">
   <defs
      id="defs4" />
   <sodipodi:namedview
@@ -26,15 +26,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.979899"
-     inkscape:cx="187.72674"
+     inkscape:cx="102.11631"
      inkscape:cy="66.079397"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1535"
-     inkscape:window-height="876"
+     inkscape:window-width="1855"
+     inkscape:window-height="1176"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -47,7 +47,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,7 @@
     <g
        id="g4243"
        transform="matrix(1.0081774,0,0,1.0081774,-116.74203,285.92322)"
-       style="fill:#ffffff">
+       style="fill:#ffffff;fill-opacity:1">
       <text
          sodipodi:linespacing="125%"
          id="text4136-3"
@@ -67,7 +67,7 @@
          x="238.25488"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:STIX;-inkscape-font-specification:'STIX, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:STIX;-inkscape-font-specification:'STIX, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:STIX;-inkscape-font-specification:'STIX, Normal';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            id="tspan4162-8"
            y="713.28882"
            x="238.25488"
@@ -76,7 +76,7 @@
          inkscape:connector-curvature="0"
          id="path4158-0"
          d="m 115.79513,716.5652 c 5,-3.57143 71.42857,-73.57143 71.42857,-73.57143 l 32.85715,32.85714 -31.42857,-20 z"
-         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
       <path
          sodipodi:nodetypes="cccccccccc"
          inkscape:connector-curvature="0"
@@ -90,7 +90,7 @@
          x="232.93381"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:125%;font-family:STIX;-inkscape-font-specification:'STIX, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff"
+           style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:40px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#ffffff;fill-opacity:1"
            id="tspan4162-8-8"
            y="750.76495"
            x="232.93381"
@@ -100,7 +100,7 @@
          inkscape:connector-curvature="0"
          id="path4218"
          d="m 310.91777,720.31788 c -69.94141,2.06087 -70.08452,-0.87515 -144.70435,0 75.32348,-4.3247 75.07887,-0.8624 144.70435,0 z"
-         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+         style="fill:#ffffff;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1" />
     </g>
   </g>
 </svg>

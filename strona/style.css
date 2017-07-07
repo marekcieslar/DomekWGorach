@@ -89,12 +89,13 @@ p {
 }
 
 
-/* services */
+/* services mobile*/
 
 .services {
     margin-top: 45px;
     margin-bottom: 45px;
 }
+
 #services h1 {
     text-align: center;
 }
@@ -136,6 +137,67 @@ p {
     border-radius: 5px;
     width: 250px;
 }
+
+/* services desktop */
+
+.services {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+#services:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#services h1 {
+    text-align: center;
+}
+
+#services .border {
+    border-bottom: 2px solid #ccf;
+    width: 90px;
+    margin: 25px auto 35px auto;
+}
+
+#services .service {
+    float: left;
+    width: 33.332%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+#services .service i {
+    color: #ccc;
+    font-size: 60px;
+    display: block;
+    margin-top: 55px;
+    margin-bottom: 68px;
+}
+
+#services .service h3 {
+    margin-top: 25px;
+}
+
+#services .service p {
+    color: #bbb;
+}
+
+#services .service img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#services .service img.rect {
+    border-radius: 5px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+    width: 250px;
+}
+
 /* main text */
 
 #text .container {
@@ -143,8 +205,61 @@ p {
     color: #bbb;
     padding: 55px 25px;
 }
+
 #text h1 {
     color: #000;
+}
+
+
+/* GLERY */
+
+#gallery {
+    position: relative;
+    box-sizing: inherit;
+}
+#gallery:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#gallery .image {
+    width: 33.332%;
+    padding-top: 33.332%;
+    float: left;
+    box-sizing: inherit;
+    position: relative;
+}
+
+#gallery .image .img {
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    top: 0px;
+    left: 0px;
+    display: block;
+}
+
+#gallery .image .info {
+    position: absolute;
+    width: 100%;
+    padding-top: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0,0,0,0.70);
+    opacity: 0.0;
+    color: #fff;
+    z-index: 1;
+    transition: 0.3s linear;
+}
+#gallery .image:hover .info {
+    opacity: 1.0;
+}
+.image .info h3 {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /*
