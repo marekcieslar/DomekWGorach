@@ -4,6 +4,13 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 
+
+/* just to make svg clikable link */
+
+object {
+    pointer-events: none;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -206,6 +213,8 @@ body {
     margin: auto;
     background-color: #EEEEEE;
 }
+
+
 /*
  * ARTICLE MAP
  */
@@ -214,6 +223,8 @@ body {
     padding-bottom: 80px;
     text-align: center;
 }
+
+
 /*
  * FOOTER
  */
@@ -224,9 +235,11 @@ footer {
     padding-bottom: 75px;
     text-align: center;
 }
+
 footer p {
     margin: 0;
 }
+
 footer a {
     color: #37474F;
     text-decoration: none;
@@ -296,11 +309,23 @@ footer a {
     /*
      * ARTICLE GALLERY
      */
-     .article-gallery .image {
-         width: 25%;
-         padding-top: 25%;
-     }
-     /*
+    .article-gallery .image {
+        width: 25%;
+        padding-top: 25%;
+    }
+    .article-gallery .image .info {
+        background-color: rgba(0, 0, 0, 0.5);
+        height: 100%;
+        opacity: 0.0;
+        transition: all 0.5s;
+    }
+    .article-gallery .image .info:hover {
+        opacity: 1.0;
+    }
+    .article-gallery .image .info h3 {
+        padding-top: 35%;
+    }
+    /*
       * ARTICLE MAP
       */
     .article-map .overlay {
