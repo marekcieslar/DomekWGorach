@@ -114,12 +114,7 @@ body {
     padding-top: 40vh;
     box-sizing: border-box;
     color: #FFFFFF;
-}
-
-.article-header .article-title h1,
-.article-header .article-title h2 {
-    margin: 0;
-    text-shadow: 0px 0px 3px rgba(50, 50, 50, 1);
+    text-shadow: 0px 0px 6px rgba(50, 50, 50, 1);
 }
 
 
@@ -211,6 +206,7 @@ body {
     padding: 35px;
     max-width: 900px;
     margin: auto;
+    margin-top: 75px;
     background-color: #EEEEEE;
 }
 
