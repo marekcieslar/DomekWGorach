@@ -45,6 +45,7 @@ body {
 .page-header .navigation-menu li {
     border-bottom: 1px #AAAAAA solid;
 }
+
 .page-header .navigation-menu li:first-child {
     padding-top: 35px;
 }
@@ -91,28 +92,80 @@ body {
 }
 
 .article {
-    background-image: url('img/header-background-0.jpg');
-    background-position: 50%;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 90vh;
-    text-align: center;
     color: #FFFFFF;
 }
 
 .article .article-header {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+    background-image: url('img/header-background-0.jpg');
+    text-align: center;
+    background-position: 50%;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    padding-top: 40vh;
+    box-sizing: border-box;
 }
 
-.article-header .article-title h1, h2 {
+.article-header .article-title h1,
+h2 {
     margin: 0;
     text-shadow: 0px 0px 3px rgba(50, 50, 50, 1);
 }
 
 .article-content {
     padding: 15px;
+    color: #37474F;
+    max-width: 900px;
+
+margin: auto;
+}
+
+@media (min-width: 40em) {
+    .page-header {
+        margin: auto;
+        left: 0;
+        right: 0;
+        max-width: 900px;
+    }
+    .page-nav {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    .page-nav .hamburger {
+        display: none;
+    }
+
+    .page-nav .navigation-menu {
+        display: block;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        background: none;
+        top: 0px;
+        left: 0;
+        opacity: 1.0;
+    }
+    .page-nav .navigation-menu li {
+        display: inline-block;
+        border: none;
+        padding: 0;
+    }
+    .page-nav .navigation-menu li:first-child {
+        padding: 0;
+    }
+    .page-nav .navigation-menu li:last-child {
+        border: none;
+        padding: 0;
+    }
+    .page-nav .navigation-menu a {
+        color: #FFFFFF;
+        border-radius: 10px;
+        transition: all 0.3s;
+    }
+    .page-nav .navigation-menu a:hover {
+        background-color: rgba(50, 50, 50, 0.5);
+        border-radius: 30px;
+    }
 }
