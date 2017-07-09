@@ -124,9 +124,11 @@ body {
     text-align: center;
     margin-top: 55px;
 }
+
 .services h2 {
     font-size: 2.8rem;
 }
+
 .services .border {
     border-bottom: 1px solid #AAAAAA;
     width: 75px;
@@ -138,12 +140,17 @@ body {
     text-align: center;
     padding: 15px;
 }
+
 .services .service i {
-    font-size: 8.5rem; 
+    font-size: 8.5rem;
 }
+
 .services .service img {
     border-radius: 50%;
+    max-height: 180px;
+    max-width: 100%;
 }
+
 .services .service img.rect {
     border-radius: 25px;
 }
@@ -154,9 +161,10 @@ body {
  */
 
 .article-content {
-    padding: 15px;
+    padding: 35px;
     max-width: 900px;
     margin: auto;
+    background-color: #DDDDDD;
 }
 
 @media (min-width: 40em) {
@@ -204,5 +212,20 @@ body {
     .page-nav .navigation-menu a:hover {
         background-color: rgba(50, 50, 50, 0.5);
         border-radius: 30px;
+    }
+    /*
+     * SERVICES
+     */
+     .services {
+        max-width: 900px;
+        margin: auto;
+        padding: 0;
+     }
+    
+    .services .service {
+        display: inline-block;
+        width: 33.330%;
+        box-sizing: border-box;
+        margin: 0;
     }
 }
