@@ -1,15 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Domek w Górach</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-
+<?php get_header(); ?>
 <body>
 
     <header class="page-header" id="page-header">
@@ -17,7 +6,7 @@
         <a href="#main" title="go back to homepage">
             <!--<img src="img/logo-DwG-web-b.svg" alt="Domek w Górach - logo">-->
             <!--<object class="svgClass" type="image/svg+xml" data="img/logo-DwG-web-b.svg"></object>-->
-            <object class="header-logo" type="image/svg+xml" data="img/logo-DwG-web.svg"></object>
+            <object class="header-logo" type="image/svg+xml" data="<?php echo get_template_directory_uri(); ?>/img/logo-DwG-web.svg"></object>
         </a>
         <nav id="navigation" class="page-nav">
             <ul class="navigation-menu">
@@ -54,7 +43,7 @@
                             </p>
                         </div>
                         <div class="service">
-                            <img src="img/service_2.jpg" alt="service 2">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/service_2.jpg" alt="service 2">
                             <h3>Spokój</h3>
                             <p>Sit autem ipsam minus officiis in. Labore ipsum unde ipsum tenetur saepe ad quae. Illum nesciunt
                                 minus quis accusantium laboriosam laborum magni? Fugiat sit excepturi ab mollitia modi exercitationem.
@@ -62,7 +51,7 @@
                             </p>
                         </div>
                         <div class="service">
-                            <img src="img/service_3.jpg" class="rect" alt="service 3">
+                            <img src="<?php echo get_template_directory_uri(); ?>/img/service_3.jpg" class="rect" alt="service 3">
                             <h3>Życie</h3>
                             <p>Sit autem ipsam minus officiis in. Labore ipsum unde ipsum tenetur saepe ad quae. Illum nesciunt
                                 minus quis accusantium laboriosam laborum magni? Fugiat sit excepturi ab mollitia modi exercitationem.
@@ -88,22 +77,22 @@
             <div class="article-gallery">
 
                 <h2>Galeria</h2>
-                <div class="image" style="background-image: url(gallery/dwg_s_01.jpg);" i>
+                <div class="image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/gallery/dwg_s_01.jpg);" i>
                     <div class="info">
                         <h3>Pokój gościnny</h3>
                     </div>
                 </div>
-                <div class="image" style="background-image: url(gallery/dwg_s_02.jpg);" i>
+                <div class="image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/gallery/dwg_s_02.jpg);" i>
                     <div class="info">
                         <h3>Kuchnia</h3>
                     </div>
                 </div>
-                <div class="image" style="background-image: url(gallery/dwg_s_07.jpg);" i>
+                <div class="image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/gallery/dwg_s_07.jpg);" i>
                     <div class="info">
                         <h3>Ogród</h3>
                     </div>
                 </div>
-                <div class="image" style="background-image: url(gallery/dwg_s_05.jpg);" i>
+                <div class="image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/gallery/dwg_s_05.jpg);" i>
                     <div class="info">
                         <h3>Sypialnie</h3>
                     </div>
@@ -131,6 +120,4 @@
     </footer>
 
     <script src="app.js"></script>
-</body>
-
-</html>
+    <?php get_footer(); ?>

@@ -11,102 +11,101 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 html {
-    font-size: 62.5%;
-    font-family: 'Oswald', sans-serif;
+  font-size: 62.5%;
+  font-family: 'Oswald', sans-serif;
 }
-
 
 /* just to make svg clikable link */
 
 object {
-    pointer-events: none;
+  pointer-events: none;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    color: #37474F;
-    font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  color: #37474F;
+  font-size: 1.6rem;
 }
 
 .page-header {
-    position: absolute;
-    padding: 20px;
-    width: 100%;
-    box-sizing: border-box;
-    transition: all 0.3s 0.0s;
-    z-index: 1;
+  position: absolute;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s 0.0s;
+  z-index: 1;
 }
 
 .page-header.nav-opened {
-    background-color: #FFFFFF;
-    border-bottom: 3px solid #AAAAAA;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #AAAAAA;
 }
 
 .page-header object {
-    height: 40px;
+  height: 40px;
 }
 
 .page-header .navigation-menu {
-    padding: 0;
-    margin: 0;
-    position: absolute;
-    text-align: center;
-    width: 100%;
-    top: -1000px;
-    left: 0;
-    background-color: #FFFFFF;
-    opacity: 0.0;
-    transition: opacity 0.3s 0.0s, top 0.3s 0.3s;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: -1000px;
+  left: 0;
+  background-color: #FFFFFF;
+  opacity: 0.0;
+  transition: opacity 0.3s 0.0s, top 0.3s 0.3s;
 }
 
 .page-header .navigation-menu li {
-    border-bottom: 1px #AAAAAA solid;
+  border-bottom: 1px #AAAAAA solid;
 }
 
 .page-header .navigation-menu li:first-child {
-    padding-top: 35px;
+  padding-top: 35px;
 }
 
 .page-header .navigation-menu li:last-child {
-    border-bottom: 3px solid #AAAAAA;
-    padding-bottom: 35px;
+  border-bottom: 3px solid #AAAAAA;
+  padding-bottom: 35px;
 }
 
 .page-header .navigation-menu a {
-    list-style: none;
-    text-decoration: none;
-    color: #37474F;
-    display: block;
-    padding: 15px;
+  list-style: none;
+  text-decoration: none;
+  color: #37474F;
+  display: block;
+  padding: 15px;
 }
 
 .page-header.nav-opened .navigation-menu {
-    opacity: 1.0;
-    top: 88px;
-    transition: opacity 0.3s 0.0s, top 0.0s 0.0s;
+  opacity: 1.0;
+  top: 88px;
+  transition: opacity 0.3s 0.0s, top 0.0s 0.0s;
 }
 
 .page-header .hamburger {
-    border: 0;
-    background: 0;
-    position: absolute;
-    right: 20px;
-    top: 25px;
-    color: #FFFFFF;
+  border: 0;
+  background: 0;
+  position: absolute;
+  right: 20px;
+  top: 25px;
+  color: #FFFFFF;
 }
 
 .page-header .hamburger .clear-icon {
-    display: none;
+  display: none;
 }
 
 .page-header.nav-opened .hamburger .clear-icon {
-    display: block;
-    color: #37474F;
+  display: block;
+  color: #37474F;
 }
 
 .page-header.nav-opened .hamburger .menu-icon {
-    display: none;
+  display: none;
 }
 
 
@@ -115,17 +114,17 @@ body {
  */
 
 .article .article-header {
-    background-image: url('img/header-background-0.jpg');
-    text-align: center;
-    background-position: 50%;
-    background-attachment: fixed;
-    background-size: cover;
-    width: 100vw;
-    height: 90vh;
-    padding-top: 40vh;
-    box-sizing: border-box;
-    color: #FFFFFF;
-    text-shadow: 0px 0px 6px rgba(50, 50, 50, 1);
+  background-image: url('img/header-background-0.jpg');
+  text-align: center;
+  background-position: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 90vh;
+  padding-top: 40vh;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  text-shadow: 0px 0px 6px rgba(50, 50, 50, 1);
 }
 
 
@@ -134,38 +133,38 @@ body {
  */
 
 .services {
-    text-align: center;
-    margin-top: 55px;
+  text-align: center;
+  margin-top: 55px;
 }
 
 .services h2 {
-    font-size: 2.8rem;
+  font-size: 2.8rem;
 }
 
 .services .border {
-    border-bottom: 1px solid #AAAAAA;
-    width: 75px;
-    margin: auto;
-    margin-bottom: 45px;
+  border-bottom: 1px solid #AAAAAA;
+  width: 75px;
+  margin: auto;
+  margin-bottom: 45px;
 }
 
 .services .service {
-    text-align: center;
-    padding: 15px;
+  text-align: center;
+  padding: 15px;
 }
 
 .services .service i {
-    font-size: 8.5rem;
+  font-size: 8.5rem;
 }
 
 .services .service img {
-    border-radius: 50%;
-    max-height: 180px;
-    max-width: 100%;
+  border-radius: 50%;
+  max-height: 180px;
+  max-width: 100%;
 }
 
 .services .service img.rect {
-    border-radius: 25px;
+  border-radius: 25px;
 }
 
 
@@ -174,38 +173,38 @@ body {
  */
 
 .article-gallery {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
-    text-align: center;
-    max-width: 900px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  text-align: center;
+  max-width: 900px;
 }
 
 .article-gallery::after {
-    content: "";
-    clear: both;
-    display: block;
+  content: "";
+  clear: both;
+  display: block;
 }
 
 .article-gallery .image {
-    width: 50%;
-    padding-top: 50%;
-    float: left;
-    box-sizing: inherit;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
+  width: 50%;
+  padding-top: 50%;
+  float: left;
+  box-sizing: inherit;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .article-gallery .image .info {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    color: #FFFFFF;
-    width: 100%;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  color: #FFFFFF;
+  width: 100%;
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 1);
 }
 
 
@@ -214,11 +213,11 @@ body {
  */
 
 .article-content {
-    padding: 35px;
-    max-width: 900px;
-    margin: auto;
-    margin-top: 75px;
-    background-color: #EEEEEE;
+  padding: 35px;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 75px;
+  background-color: #EEEEEE;
 }
 
 
@@ -227,8 +226,8 @@ body {
  */
 
 .article-map {
-    padding-bottom: 80px;
-    text-align: center;
+  padding-bottom: 80px;
+  text-align: center;
 }
 
 
@@ -237,110 +236,110 @@ body {
  */
 
 footer {
-    background-color: #EEEEEE;
-    padding-top: 45px;
-    padding-bottom: 75px;
-    text-align: center;
+  background-color: #EEEEEE;
+  padding-top: 45px;
+  padding-bottom: 75px;
+  text-align: center;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }
 
 footer a {
-    color: #37474F;
-    text-decoration: none;
+  color: #37474F;
+  text-decoration: none;
 }
 
 @media (min-width: 40em) {
-    .page-header {
-        margin: auto;
-        left: 0;
-        right: 0;
-        max-width: 900px;
-    }
-    .page-nav {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-    .page-nav .hamburger {
-        display: none;
-    }
-    .page-nav .navigation-menu {
-        display: block;
-        padding: 0;
-        margin: 0;
-        position: relative;
-        background: none;
-        top: 0px;
-        left: 0;
-        opacity: 1.0;
-    }
-    .page-nav .navigation-menu li {
-        display: inline-block;
-        border: none;
-        padding: 0;
-    }
-    .page-nav .navigation-menu li:first-child {
-        padding: 0;
-    }
-    .page-nav .navigation-menu li:last-child {
-        border: none;
-        padding: 0;
-    }
-    .page-nav .navigation-menu a {
-        color: #FFFFFF;
-        border-radius: 10px;
-        transition: all 0.3s;
-    }
-    .page-nav .navigation-menu a:hover {
-        background-color: rgba(50, 50, 50, 0.5);
-        border-radius: 30px;
-    }
-    /*
+  .page-header {
+    margin: auto;
+    left: 0;
+    right: 0;
+    max-width: 900px;
+  }
+  .page-nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  .page-nav .hamburger {
+    display: none;
+  }
+  .page-nav .navigation-menu {
+    display: block;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    background: none;
+    top: 0px;
+    left: 0;
+    opacity: 1.0;
+  }
+  .page-nav .navigation-menu li {
+    display: inline-block;
+    border: none;
+    padding: 0;
+  }
+  .page-nav .navigation-menu li:first-child {
+    padding: 0;
+  }
+  .page-nav .navigation-menu li:last-child {
+    border: none;
+    padding: 0;
+  }
+  .page-nav .navigation-menu a {
+    color: #FFFFFF;
+    border-radius: 10px;
+    transition: all 0.3s;
+  }
+  .page-nav .navigation-menu a:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+    border-radius: 30px;
+  }
+  /*
      * ARTICLE SERVICES
      */
-    .services {
-        max-width: 900px;
-        margin: auto;
-        padding: 0;
-    }
-    .services .service {
-        display: inline-block;
-        width: 33.330%;
-        box-sizing: border-box;
-        margin: 0;
-        margin-left: -4px;
-    }
-    /*
+  .services {
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+  }
+  .services .service {
+    display: inline-block;
+    width: 33.330%;
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: -4px;
+  }
+  /*
      * ARTICLE GALLERY
      */
-    .article-gallery .image {
-        width: 25%;
-        padding-top: 25%;
-    }
-    .article-gallery .image .info {
-        background-color: rgba(0, 0, 0, 0.5);
-        height: 100%;
-        opacity: 0.0;
-        transition: all 0.5s;
-    }
-    .article-gallery .image .info:hover {
-        opacity: 1.0;
-    }
-    .article-gallery .image .info h3 {
-        padding-top: 35%;
-    }
-    /*
+  .article-gallery .image {
+    width: 25%;
+    padding-top: 25%;
+  }
+  .article-gallery .image .info {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    opacity: 0.0;
+    transition: all 0.5s;
+  }
+  .article-gallery .image .info:hover {
+    opacity: 1.0;
+  }
+  .article-gallery .image .info h3 {
+    padding-top: 35%;
+  }
+  /*
       * ARTICLE MAP
       */
-    .article-map .overlay {
-        background-color: transparent;
-        position: relative;
-        width: 100%;
-        height: 350px;
-        top: 350px;
-        margin-top: -350px;
-    }
+  .article-map .overlay {
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    top: 350px;
+    margin-top: -350px;
+  }
 }
