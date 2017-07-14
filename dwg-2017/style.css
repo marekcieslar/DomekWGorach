@@ -1,3 +1,14 @@
+/*
+Theme Name: Domek w Górach
+Theme URI: http://www.domekwgorach.wisla.pl
+Author: Marek Cieślar
+Author URI: https://marekcieslar.pl
+Description: Skórka przygortowana dla 'Domek w Górach' na założenie obiektu
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 html {
     font-size: 62.5%;

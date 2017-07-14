@@ -216,6 +216,7 @@ p {
 #gallery {
     position: relative;
     box-sizing: inherit;
+    text-align: center;
 }
 #gallery:after {
     content: "";
@@ -263,7 +264,7 @@ p {
 }
 
 /*
- * SMALL SCREEN
+ * WIDE SCREEN
  */
 
 @media only screen and (max-width: 899px) {
