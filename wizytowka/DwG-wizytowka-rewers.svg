@@ -34,17 +34,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.5462175"
-     inkscape:cx="208.64483"
-     inkscape:cy="127.44222"
+     inkscape:zoom="2"
+     inkscape:cx="158.62223"
+     inkscape:cy="104.37383"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
      borderlayer="true"
      showguides="true"
      inkscape:guide-bbox="true"
-     inkscape:window-width="1535"
-     inkscape:window-height="876"
+     inkscape:window-width="1855"
+     inkscape:window-height="1056"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -104,7 +104,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -168,16 +168,16 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.40571785px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="313.27103"
-       y="1028.6021"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="309.08981"
+       y="1027.592"
        id="text4191"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4193"
-         x="313.27103"
-         y="1028.6021"
-         style="font-size:12.5px;text-align:end;text-anchor:end;fill:#000080;">DomekwGorach.wisla.pl</tspan></text>
+         x="309.08981"
+         y="1027.592"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000080">www.DomekwGorach.wisla.pl</tspan></text>
     <g
        style="fill:#000000"
        id="g4196"
@@ -2460,16 +2460,16 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:18.40571785px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
-       x="312.53644"
-       y="1010.5101"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="311.54031"
+       y="996.9574"
        id="text4191-3"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
          id="tspan4193-6"
-         x="312.53644"
-         y="1010.5101"
-         style="font-size:12.5px;text-align:end;text-anchor:end;fill:#000080;">+48 882-752-444</tspan></text>
+         x="311.54031"
+         y="996.9574"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000080">+48 882-752-444</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:14.11505985px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
@@ -2503,5 +2503,17 @@
        d="m 7.0866141,868.11024 0,177.16536 318.8976359,0 0,-177.16536 z"
        id="path5245"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000080;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="310.76303"
+       y="1012.2747"
+       id="text4191-3-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4193-6-6"
+         x="310.76303"
+         y="1012.2747"
+         style="font-style:italic;font-variant:normal;font-weight:500;font-stretch:normal;font-size:13.75px;line-height:125%;font-family:'URW Chancery L';-inkscape-font-specification:'URW Chancery L, Medium Italic';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000080">os. Kobyla 2, 43-460 Wisła</tspan></text>
   </g>
 </svg>
